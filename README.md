@@ -32,4 +32,8 @@ API EndpointsAuthMethodEndpointDescriptionAuth RequiredPOST/api/auth/signupRegis
 │   └── index.js            # App entry point
 ├── prisma.config.ts        # Prisma 7 CLI configuration
 └── .env                    # Environment variables
-Security & Database NotesDatabase: Relational PostgreSQL hosted on NeonDB.Auth: Passwords hashed with bcryptjs (12 rounds).Tokens: Short-lived access tokens (15m) and secure httpOnly refresh tokens.Scoping: All task operations are scoped to req.user.userId. Users cannot access data belonging to other IDs.Prisma 7: Uses @prisma/adapter-pg for serverless-friendly PostgreSQL connections.Group Members(Add your names here)
+Security & Database NotesDatabase: Relational PostgreSQL hosted on NeonDB.Auth: Passwords hashed with bcryptjs (12 rounds).Tokens: Short-lived access tokens (15m) and secure httpOnly refresh tokens.Scoping: All task operations are scoped to req.user.userId. Users cannot access data belonging to other IDs.Prisma 7: Uses @prisma/adapter-pg for serverless-friendly PostgreSQL connections.
+
+Frontend - Justine Mirafuentes 
+Backend - Mc Zaldy Yap
+Project Manager - Gian Lagahit
